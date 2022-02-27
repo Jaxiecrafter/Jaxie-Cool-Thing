@@ -1,4 +1,4 @@
-This is Jaxen Hanna. Here you will find A-Z of things you might need for school, and just IRL.
+This is Haribo Man. Here you will find A-Z of things you might need for school, and just IRL.
 
   This is project H.A.R.I.B.O, Standing for
   
