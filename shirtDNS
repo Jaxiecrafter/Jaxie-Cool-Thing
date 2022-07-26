@@ -1,7 +1,10 @@
-shirtDNS is a exploit that allows you to unenable goguardian and stuff.
+IStealYourDNS is a exploit that allows you to unenable goguardian and stuff.
 Heres how to activate it.
 
-Go into settings under your wifi and click on "Name servers" and set it to Custom Name Servers.
-Then restart chromebook.     (Has to be 51.222.236.102)
+Go into settings under your wifi and click on "Name servers" and set it to Custom Name Servers. (Put it in all 4)
+Then restart chromebook.     (Has to be 51.222.0.42)
 
 Now no one can see what your doing, might get in trouble though.
+
+
+Tutorial = https://www.youtube.com/watch?v=2GpFB4ByENo
