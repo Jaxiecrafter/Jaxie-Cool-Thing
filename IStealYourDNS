@@ -2,7 +2,7 @@ IStealYourDNS is a exploit that allows you to unenable goguardian and stuff.
 Heres how to activate it.
 
 Go into settings under your wifi and click on "Name servers" and set it to Custom Name Servers. (Put it in all 4)
-Then restart chromebook.     (Has to be 51.222.0.42)
+Then restart chromebook.     (Has to be 72.5.33.65)
 
 Now no one can see what your doing, might get in trouble though.
 
