@@ -1,0 +1,59 @@
+This bypass is dooky poopy, credit to bypassi, the greatest giant, and many more in the bypassi server.
+
+Note that most people can't change DNS at school, and even if you do <#1059386432415879218> (which unblocks it), it probably will 
+still refuse to connect. use a vpn instead
+-
+
+**Guide for how to change your DNS**
+
+NOTE: There are 2 ways of doing it
+1 - you can do it on your wifi
+2 - you can do it on a VPN (recommended)
+
+VIA Wi-fi
+- Open your wifi settings
+- Open up the `Network` dropdown and under `Name servers` click on `Custom name servers`
+- Set the first box to the DNS you plan on using and the rest to `0.0.0.0`
+Note: This might not automatically connect you so you can either go to `chrome://restart` right away and you should be connected or you can check by going to `chrome://network/#state`, clicking on the `+` next to your wifi and seeing if the nameservers is the one you set it to 
+
+VIA VPN
+- Go to the VPN settings - they can be accessed in settings or if they're blocked or you're a skid, go to `chrome://network/#select` and double click on the vpn
+- Open up the `Network` dropdown and under `Name servers` click on `Custom name servers`
+- Set the first box to the DNS you plan on using and the rest to `0.0.0.0`
+
+DNS ip's:
+GiantDNS: 158.101.114.159 - Properties - [swamp],  <#1059386563303321600> , and the blocking needed for <#1059385329733341254> 
+[swamp] DNS: 150.136.6.90 - just has [swamp]
+-
+**[swamp] FOR GOGUARDIAN ONLY**
+This bypass **only works if you have the GoGuardian extension installed**. Also, it does not work on ChromeOS 104 specifically.
+
+This will allow you to:
+-Disable force-installed extensions like <#1059386563303321600> even on Chrome 106 when it's patched
+-Run bookmarklets on any page even when they are blocked
+- **Break GoGuardian until powerwash** (or until you turn it back on)
+- Run a custom filter to block network requests (such as to `goguardian.com`) without actually being on a DNS
+-Run your own custom code with access to most of the `chrome` API
+
+**Setup: (make sure GoGuardian is installed and enabled)** 
+Basically just <#1059386377931857951> (note that this will likely not work on a school network)
+
+
+Establishing spoofed connection:
+- In a new tab, go to https://tinyurl.com/s-w-a-m-p (or ```chrome-extension://haldlgldplgnggkjaafhelgiaglafanh/background
+.html``` (should be a blank white screen)
+
+- On this page, press ctrl+shift+r and wait for the page to finish loading (it should still be a blank screen)
+- In the same tab, go to https://ssl.google-analytics.com/swamp (and maybe do ctrl+shifter)
+
+-You should get a warning message from Chrome (if you do not, then there is an issue with your DNS setup, try a hotspot maybe)
+
+-Type `thisisunsafe` on your keyboard to bypass this warning (make sure you don't typo)
+
+You should now be in [swamp]! If you can keep pressing ctrl+shift+r on the extension page and (swamp] keeps loading, then you've set it up correctly. If it doesn't, then you'll have to go back to the Google Analytics link and do thisisunsafe again.
+
+Please turn off the DNS when you're done. If you use too
+much bandwidth, [swamp] will get slower for everyone.
+Cheers! - Bypassi
+
+bro to my futre self good job man, you did it. 
