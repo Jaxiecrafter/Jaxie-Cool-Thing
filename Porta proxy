@@ -1,0 +1,27 @@
+Porta Proxy is a Javascript Bookmarklet script that embeds proxies into other websites.
+
+Requirements:
+
+- You need to have Bookmarklets enabled.
+
+Steps
+
+1. Copy this script:
+
+```javascript:((function(){var a,b,c;c="https://example.com/%22,b=document.createElement(%22iframe%22),b.setAttribute(%22src%22,c),b.setAttribute(%22id%22,%22cloak-page%22),b.setAttribute(%22style%22,%22position: fixed; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; z-index: 99999999999; background-color: #fff;"),a=document.getElementsByTagName("body")[0],a.appendChild(b)})).call(this);```
+
+2. Click Ctrl + D and click “More…”
+
+3. Paste the Javascript Script into the URL.
+
+4. Change "example.com" to your proxy
+
+5. Go to a website that won’t raise any suspicions. (Such as “google.com”)
+
+6. Click the bookmarklet and boom. Porta Proxy.
+
+Why it is useful?
+
+1. You can use any proxy, even ones that have been blocked by content filters (Except for Cisco Umbrella). 
+2. The proxy will not show up on your history. For example, if you use “google.com” as your proxy embedding website, the only thing that will show up on your search history is “google.com.”
+
